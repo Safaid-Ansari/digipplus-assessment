@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/digipplus-assessment/static/css/main.77872192.css",
+    "main.js": "/digipplus-assessment/static/js/main.a1c546ea.js",
+    "index.html": "/digipplus-assessment/index.html",
+    "main.77872192.css.map": "/digipplus-assessment/static/css/main.77872192.css.map",
+    "main.a1c546ea.js.map": "/digipplus-assessment/static/js/main.a1c546ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77872192.css",
+    "static/js/main.a1c546ea.js"
+  ]
+}
