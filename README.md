@@ -1,6 +1,51 @@
 # Getting Started with Create React App
 
-Hosted Link : https://safaid-ansari.github.io/home
+# Hosted Link : https://safaid-ansari.github.io/home 
+
+ 
+# Part 2 Answer  
+
+ question 1: Do you know Jquery ? 
+
+answer: Yes i know Jquery   
+ 
+ in HTML file 
+ 
+ 
+  <input type='button' value='Save' class='btn btn-warning clicked
+    newClassName' data-id="id_<?php $value1["ID"] ?> 
+    
+ in js file function 
+ 
+  $(".newClassName").on("click", function () {
+  var id = $(this).attr("id");
+  console.log("this is working through jquery ");
+  });
+    
+
+
+question 2: Do you have any experience in connecting the backend code to the frontend ?
+
+answer : yes i have connected many times backend code with the frondend 
+
+question 3: Have you worked with Django + React Js Before?
+
+answer : No I have worked with Nodejs + React Js 
+
+question 4:  Will you be able to connect Django and React Js?
+
+answer :  yes i can , i will try my best 
+
+question 5: Do you have any knowledge and experience in AWS?
+
+answer : yes i have basic knowledge of AWS 
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
