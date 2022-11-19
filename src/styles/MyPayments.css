@@ -1,0 +1,42 @@
+.payments {
+
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+
+.payments h5 {
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.payments .headingSix {
+    background-color: slategray;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.payments .heading6 {
+
+    background-color: azure;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.paymentDates {
+
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 500px;
+}
+
+.earning {
+    position: absolute;
+    top: 20%;
+    left: 70%;
+}

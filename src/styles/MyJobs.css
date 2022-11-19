@@ -1,0 +1,78 @@
+.job {
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+
+.job h5 {
+    color: orange;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.job h6 {
+    background-color: #7c96b0;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+
+.job p {
+    background-color: #c7d5d5;
+    padding: 10px;
+    border-radius: 15%;
+    margin-bottom: 20px;
+}
+
+.job .jobApplication {
+
+    background-color: #c7d5d5;
+    border-radius: 10px;
+}
+
+.box {
+    position: absolute;
+    top: 27%;
+    left: 30%;
+    background-color: whitesmoke;
+    width: 250px;
+    height: 150px;
+    box-shadow: 6px 6px 6px 0px rgb(223, 207, 140);
+}
+
+.box h6 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.box p {
+    margin-left: 20px;
+
+}
+
+
+.Announcement2 {
+    position: absolute;
+    font-size: 25px;
+    top: 23%;
+    left: 76%;
+}
+
+.Announcement2 img {
+    height: 30px;
+}
+
+.alert2 {
+    position: absolute;
+    top: 30%;
+    background-color: lightblue;
+    left: 75%;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 15px;
+}

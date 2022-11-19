@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
+import Header from "./components/Header";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import MyJobs from "./components/MyJobs";
+import MyPayments from "./components/MyPayments";
+import MyOfferLatter from "./components/MyOfferLatter";
+import MyCertificate from "./components/MyCertificate";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <Header></Header>
+        <Routes>
+          <Route path="/home" element={<Home></Home>}></Route>
+          <Route path="/myjobs" element={<MyJobs></MyJobs>}></Route>
+
+          <Route path="/mypayments" element={<MyPayments></MyPayments>}></Route>
+          <Route
+            path="/myofferlatter"
+            element={<MyOfferLatter></MyOfferLatter>}
+          ></Route>
+          <Route
+            path="/mycertificate"
+            element={<MyCertificate></MyCertificate>}
+          ></Route>
+          {/* <Route path="/" element={<Login></Login>}></Route> */}
+          <Route path="/" element={<Home></Home>}></Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 

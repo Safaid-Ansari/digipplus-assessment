@@ -1,0 +1,122 @@
+.homeImage {
+    position: absolute;
+    top: 18%;
+    left: 47%;
+}
+
+.homeImage img {
+    height: 70px;
+
+}
+
+.mainHeading {
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.alert {
+    position: absolute;
+    top: 45%;
+    background-color: lightblue;
+    left: 25%;
+    height: 40px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+}
+
+.Announcement {
+    position: absolute;
+    font-size: 25px;
+    top: 38%;
+    left: 69%;
+}
+
+.Announcement img {
+    height: 30px;
+}
+
+.workAction {
+    position: absolute;
+    top: 57%;
+    left: 25%;
+}
+
+.workAction h5 {
+    color: orange;
+}
+
+.internship {
+    margin-top: 20px;
+}
+
+.internData {
+    background-color: whitesmoke;
+    width: 170px;
+    text-align: center;
+    margin-top: 15px;
+    box-shadow: 6px 6px 6px 0px rgba(232, 217, 51, 1);
+}
+
+.solution {
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    background-color: whitesmoke;
+    box-shadow: 6px 6px 6px 0px rgba(232, 217, 51, 1);
+    width: 200px;
+    height: 100px;
+}
+
+.solution h5 {
+    margin-top: 10px;
+    color: orange;
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.solution p {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width:480px) {
+
+
+    .homeImage {
+        position: absolute;
+        top: 10%;
+        left: 40%;
+    }
+
+    .mainHeading {
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .Announcement {
+        position: absolute;
+        font-size: 25px;
+        top: 30%;
+        left: 29%;
+    }
+
+    .alert {
+        position: absolute;
+        top: 35%;
+        height: 50px;
+        width: 350px;
+        background-color: lightblue;
+        left: 7%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
