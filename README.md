@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-# Hosted Link : https://safaid-ansari.github.io/home 
+# Hosted Link : https://safaid-ansari.github.io/digipplus-assessment/
 
  
 # Part 2 Answer  
