@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="header">
       {/* <Link to="/"> */}
-      <Link to="/home" title="home page">
+      <Link to="/" title="home page">
         <img
           className="header__icon"
           src="https://wingslbc.files.wordpress.com/2022/02/capture.png?w=949"
@@ -17,7 +17,7 @@ function Header() {
       {/* </Link> */}
       <div className="innerSpan">
         <span>
-          <Link to="/home" title="home-page">
+          <Link to="/" title="home-page">
             Home{" "}
           </Link>
         </span>
